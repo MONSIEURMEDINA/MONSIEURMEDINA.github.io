@@ -1,0 +1,68 @@
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif; */
+
+:root{
+    --DarkCyan: #0E8784;
+    --DarkGreyBlue: #333D4B;
+    --PaleOrange: #fdd6ba;
+    --LightCreamBackGround: #fefcf7;
+    --DarkBackground: #2C343E;
+    --Grey: #83888f;
+}
+
+
+#title-alternate-big{
+    margin: 0;
+    font-family: 'Fraunces', serif;
+    font-size: 150px;
+    line-height: 72px;
+    color: var(--LightCreamBackGround);
+}
+
+
+.navigation-menu {
+    font-family: 'Barlow', sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background: var(--LightCreamBackGround);
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+h1{
+    font-family: 'Fraunces', serif;
+    font-size: 72px;
+    line-height: 72px;
+}
+
+h2{
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+h3{
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+h4{
+    font-family: 'Fraunces', serif;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.main-button-default{
+    background: var(--DarkCyan);
+    color: var(--LightCreamBackGround);
+    font-family: 'Fraunces', serif; 
+    width: fit-content;
+}
